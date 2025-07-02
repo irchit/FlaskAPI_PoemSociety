@@ -13,8 +13,8 @@ app = Flask(__name__)
 CORS(app)
 
 # 🔧 Conectare MongoDB
-client = MongoClient("mongodb://localhost:27017/")
-db = client["local"]
+client = MongoClient("mongodb+srv://rchitea:<db_password>@clusterpoemsociety.pui6xab.mongodb.net/?retryWrites=true&w=majority&appName=ClusterPoemSociety")
+db = client["PoemSociety"]
 users_col = db["Utilizator"] 
 poems_col = db["Poezie"]
 comments_col = db["Comments"]

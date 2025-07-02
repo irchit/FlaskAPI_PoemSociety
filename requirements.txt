@@ -8,3 +8,4 @@ scikit-learn
 stop-words
 langdetect
 numpy
+torch

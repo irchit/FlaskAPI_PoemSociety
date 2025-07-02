@@ -1,6 +1,7 @@
 Flask
 Flask-Cors
 pymongo
+pymongo[srv]
 gunicorn
 transformers
 scikit-learn

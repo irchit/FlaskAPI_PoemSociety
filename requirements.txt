@@ -1,0 +1,9 @@
+Flask
+Flask-Cors
+pymongo
+gunicorn
+transformers
+scikit-learn
+stop-words
+langdetect
+numpy
